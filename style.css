@@ -1,0 +1,160 @@
+body {
+  background: #00EDB3;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.generation-form h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: Serif;
+  color: #00EDB3;
+  font-size: 50px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FFFFFF;
+}
+
+.generation-form {
+  background: #212121;
+  width: 90%;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: table;
+  padding: 15px 30px 30px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-group {
+  float: left;
+  width: 100%;
+  margin: 0 0 15px;
+  position: relative;
+}
+
+.generation-form input {
+  width: 100%;
+  padding: 5px;
+  height: 56px;
+  border-radius: 100px;
+  border: 1px solid #00EDB3;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: center;
+  background: #F4F8F7;
+  font-weight: bold;
+  color: #000000;
+}
+
+.generation-form .form-group .input-icon {
+  font-size: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border-radius: 50px;
+  bottom: 0;
+  height: 100%;
+  padding-left: 20px;
+  color: #FFFFFF;
+}
+
+.generation-form .login-btn {
+  background: #00EDB3;
+  padding: 11px 50px;
+  border-color: #45aba6;
+  color: #212121;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 25px;
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+  width: 100%;
+  height: 56px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.key {
+  color: #7F7F7F;
+}
+
+/*Text for spacing*/
+.null {
+  font-size: 30px;
+  text-align: center;
+  color: transparent;
+}
+
+/*Social media buttons*/
+.social-button {
+  width: 100%;
+  font-size: 100%;
+  padding-top: 20px;
+  color: #00E9FF;
+  text-align: center;
+}
+  
+.telegram {
+  font-size: 25px;
+  color: #FFFFFF;
+  height: 55px;
+  width: 55px;
+  background: url("telegram.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  border-radius: 100px;
+  margin: 0px 10px;
+  border: 1px #000000;
+  cursor: pointer;
+}
+
+.instagram {
+  font-size: 25px;
+  color: #FFFFFF;
+  height: 55px;
+  width: 55px;
+  background: url("instagram.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  border-radius: 100px;
+  margin: 0px 10px;
+  border: 1px #000000;
+  cursor: pointer;
+}
+
+.snapchat {
+  font-size: 25px;
+  color: #000000;
+  height: 55px;
+  width: 55px;
+  background: url("snapchat.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  border-radius: 100px;
+  margin: 0px 10px;
+  border: 1px #000000;
+  cursor: pointer;
+}
+
+/*text follow-us-on*/
+.text-follow-us-on {
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
